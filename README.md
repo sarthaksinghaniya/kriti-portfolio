@@ -1,16 +1,45 @@
-# React + Vite
+# Kriti - AI/ML Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, cinematic portfolio built to showcase expertise in AI/ML, data pipelines, and intelligent systems. Built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎥 **Cinematic Video Hero:** Autoplaying background video that automatically mutes after the first playback for a seamless user experience.
+- ✉️ **Functional Contact Form:** Fully integrated with [FormSubmit.co](https://formsubmit.co/) for zero-backend email delivery straight to your inbox.
+- 📱 **Responsive Design:** Optimized for all screen sizes using Tailwind CSS.
+- ✨ **Smooth Animations:** Scroll and parallax effects powered by Framer Motion and AOS (Animate On Scroll).
+- ⚡ **Fast & Optimized:** Built with Vite for incredibly fast hot-reloading and optimized production builds.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** React + Vite
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion, AOS
+- **Form Handling:** FormSubmit.co
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   *This will start the local server on `http://localhost:5173/` by default.*
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## Customization
+
+- **Contact Form:** The contact form is currently configured to send emails to `er.jainkriti@gmail.com`. Ensure you've clicked the activation link FormSubmit sends on the first test! To change the email, update the fetch URL in `src/components/Contact.jsx`.
+- **Hero Video:** Replace the `herovideo.mp4` file in `src/assets/hero video/` to customize the background video in the hero section.
+
+## License
+
+This project is open-source and available under the MIT License.
