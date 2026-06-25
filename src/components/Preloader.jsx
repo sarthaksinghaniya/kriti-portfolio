@@ -22,7 +22,7 @@ const Preloader = () => {
           initial={{ y: 0 }}
           exit={{ y: "-100%" }}
           transition={{ duration: 1.2, ease: [0.76, 0, 0.24, 1] }}
-          className="fixed inset-0 w-full h-screen bg-[#ff2a2a] z-[100000] flex items-center justify-center"
+          className="fixed inset-0 w-full h-screen bg-[#2a5aff] z-[100000] flex items-center justify-center"
         >
           {/* Logo Container */}
           <motion.div 
@@ -31,8 +31,8 @@ const Preloader = () => {
             className="relative text-5xl md:text-7xl font-black tracking-tighter"
           >
             {/* Background text (empty state) */}
-            <div className="text-red-900/30">
-              Kriti<span className="text-red-900/30">.</span>
+            <div className="text-blue-900/30">
+              Kriti<span className="text-blue-900/30">.</span>
             </div>
 
             {/* Foreground text (water fill state) */}

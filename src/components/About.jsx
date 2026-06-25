@@ -6,7 +6,7 @@ import mongoImage from '../assets/about/mongodb.png';
 
 const About = () => {
   return (
-    <section id="about" className="bg-[#ff2a2a] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
+    <section id="about" className="bg-[#2a5aff] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-start">
         
         {/* Left Side: ID Badge and Skills */}
@@ -41,7 +41,7 @@ const About = () => {
         <div data-aos="fade-left" data-aos-delay="200" className="flex-1 text-white mt-8 md:mt-0 relative z-20">
           
           <h2 className="text-4xl md:text-5xl font-black text-black mb-4">Hello!</h2>
-          <p className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-red-50">
+          <p className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-blue-50">
             Hi, my name is <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">Kriti Jain</span>, a passionate AI/ML engineer based in Lucknow, dedicated to designing intelligent models, robust data pipelines, and highly scalable AI solutions.
           </p>
 

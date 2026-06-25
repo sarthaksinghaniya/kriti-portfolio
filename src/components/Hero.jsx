@@ -55,7 +55,7 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video>
 
-      {/* Dark overlay factor for optimized readability without completely muddying up the red tones */}
+      {/* Dark overlay factor for optimized readability without completely muddying up the blue tones */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-transparent z-10 pointer-events-none" />
 
       {/* Content Container - UPDATED: Changed items-center to items-start and added responsive top padding (pt-28 / md:pt-[12%]) to lift content below the navbar */}
