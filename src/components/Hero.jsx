@@ -40,10 +40,16 @@ const Hero = () => {
       <video
         ref={videoRef}
         autoPlay
-        loop
         muted={isMuted}
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        onEnded={() => {
+          setIsMuted(true);
+          if (videoRef.current) {
+            videoRef.current.muted = true;
+            videoRef.current.play().catch(e => console.log("Play failed on loop:", e));
+          }
+        }}
       >
         <source src={heroVideo} type="video/mp4" />
         Your browser does not support the video tag.
@@ -76,7 +82,7 @@ const Hero = () => {
             data-aos-delay="200"
             className="text-white/90 text-sm md:text-base lg:text-lg font-medium mb-8 max-w-sm md:max-w-md leading-relaxed drop-shadow-sm"
           >
-            I build fast, scalable and modern web applications using React, Node.js and Tailwind CSS.
+            I build intelligent, scalable machine learning models and data pipelines using Python, PyTorch, and cloud technologies.
           </p>
 
           {/* Buttons */}

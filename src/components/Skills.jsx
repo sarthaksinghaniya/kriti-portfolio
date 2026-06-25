@@ -4,20 +4,20 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   const skillsData = [
     {
-      category: 'Frontend Development',
-      skills: ['React', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'],
-    },
-    {
-      category: 'Backend Development',
-      skills: ['Node.js', 'Express.js', 'Java', 'Python', 'REST APIs', 'JWT Auth', 'MySQL', 'MongoDB'],
-    },
-    {
       category: 'AI & Machine Learning',
-      skills: ['Machine Learning', 'NLP', 'Generative AI', 'LLMs', 'Computer Vision', 'Prompt Engineering'],
+      skills: ['Python', 'Machine Learning', 'Deep Learning', 'NLP', 'Generative AI', 'LLMs', 'Computer Vision', 'Prompt Engineering'],
     },
     {
-      category: 'Tools & Cloud',
-      skills: ['Git', 'GitHub', 'Docker', 'Postman', 'Linux', 'CI/CD', 'AWS','Figma'],
+      category: 'Data & Backend Systems',
+      skills: ['FastAPI', 'Node.js', 'REST APIs', 'MySQL', 'MongoDB', 'Data Engineering'],
+    },
+    {
+      category: 'Frontend Integration',
+      skills: ['React', 'JavaScript', 'TypeScript', 'Tailwind CSS'],
+    },
+    {
+      category: 'Tools, Cloud & MLOps',
+      skills: ['Git', 'Docker', 'AWS', 'Linux', 'CI/CD', 'Postman'],
     },
   ];
  
@@ -125,7 +125,7 @@ const Skills = () => {
           </h2>
  
           <p className="text-sm text-black/60 font-normal">
-            Full-stack expertise across modern development, AI, and cloud infrastructure.
+            Expertise across artificial intelligence, machine learning, and scalable cloud infrastructure.
           </p>
         </motion.div>
  

@@ -80,7 +80,7 @@ const Expertise = () => {
             My Expertise
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 leading-[1.1] mb-6 tracking-tight relative">
-            Building Modern Digital Solutions with Code & AI
+            Building Intelligent Systems with Data & AI
             {/* Hand-drawn arrow */}
             <svg className="absolute -bottom-10 right-10 w-12 h-12 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" className="hidden" />
@@ -88,7 +88,7 @@ const Expertise = () => {
             </svg>
           </h2>
           <p className="text-gray-500 text-base md:text-lg max-w-sm font-medium leading-relaxed">
-            Combining full-stack development, artificial intelligence, and cloud technologies to create scalable and impactful digital experiences.
+            Combining artificial intelligence, machine learning, and cloud technologies to create intelligent, scalable, and impactful solutions.
           </p>
         </div>
 
@@ -170,8 +170,8 @@ const Expertise = () => {
 
           <TagCard
             number="01"
-            title="Frontend Development"
-            text="Crafting responsive and interactive user interfaces using React, JavaScript, Tailwind CSS, and modern frontend technologies to deliver seamless user experiences."
+            title="Machine Learning"
+            text="Designing and building predictive models, data pipelines, and scalable machine learning architectures to solve complex problems."
             className="md:absolute md:top-[10px] md:right-[5%] lg:right-[10%] rotate-2 md:rotate-6"
             aosType="fade-left"
             aosDelay="100"
@@ -180,8 +180,8 @@ const Expertise = () => {
           />
           <TagCard
             number="02"
-            title="Backend Development"
-            text="Building secure REST APIs, authentication systems, server-side applications, and database integrations with scalable architectures."
+            title="Data Engineering"
+            text="Architecting robust data pipelines, processing large-scale datasets, and integrating databases for high-performance AI systems."
             className="md:absolute md:top-[450px] md:left-[5%] lg:left-[10%] -rotate-2 md:-rotate-6"
             aosType="fade-right"
             aosDelay="200"
@@ -191,8 +191,8 @@ const Expertise = () => {
 
           <TagCard
             number="03"
-            title="AI & Machine Learning"
-            text="Developing intelligent applications using NLP, Generative AI, Computer Vision, LLMs, and data-driven machine learning solutions." className="md:absolute md:top-[700px] md:right-[5%] lg:right-[15%] rotate-1 md:rotate-3"
+            title="Deep Learning & GenAI"
+            text="Developing intelligent applications using NLP, Generative AI, Computer Vision, and advanced LLMs to push the boundaries of AI." className="md:absolute md:top-[700px] md:right-[5%] lg:right-[15%] rotate-1 md:rotate-3"
             aosType="fade-left"
             aosDelay="300"
             pathLength={pathLength}
@@ -201,8 +201,8 @@ const Expertise = () => {
 
           <TagCard
             number="04"
-            title="Cloud & Deployment"
-            text="Deploying and managing applications using Docker, GitHub Actions, CI/CD pipelines, cloud platforms, and performance optimization practices."
+            title="MLOps & Cloud"
+            text="Deploying machine learning models using Docker, API endpoints, CI/CD pipelines, and cloud platforms for scalable, production-ready AI."
             className="md:absolute md:top-[1050px] md:left-[15%] lg:left-[25%] -rotate-1 md:-rotate-3"
             aosType="fade-right"
             aosDelay="400"

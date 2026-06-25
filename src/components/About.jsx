@@ -42,7 +42,7 @@ const About = () => {
           
           <h2 className="text-4xl md:text-5xl font-black text-black mb-4">Hello!</h2>
           <p className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-red-50">
-            Hi, my name is <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">Kriti Jain</span>, a passionate AI/ML engineer based in Lucknow, dedicated to crafting clean, functional, and highly scalable ML Models.
+            Hi, my name is <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">Kriti Jain</span>, a passionate AI/ML engineer based in Lucknow, dedicated to designing intelligent models, robust data pipelines, and highly scalable AI solutions.
           </p>
 
           {/* Horizontal Skills Row (Transparent & Large) */}

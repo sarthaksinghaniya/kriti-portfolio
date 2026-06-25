@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         
         <div className="flex flex-col gap-1 md:items-center">
-          <p>5+ years of experience</p>
+          <p>1+ years of experience</p>
           <a href="#work" className="underline hover:text-white transition-colors mt-1 underline-offset-4 decoration-1">View Work</a>
         </div>
         
@@ -35,12 +35,13 @@ const Footer = () => {
         <div className="flex flex-col gap-6">
           <a href="#contact" className="underline hover:text-white transition-colors underline-offset-4 decoration-1 font-bold">Contact</a>
           <p className="text-white/60 font-mono text-[9px] md:text-[10px]">
-            &copy; {new Date().getFullYear()} Kriti Dasari Studio | Built with React
+            &copy; {new Date().getFullYear()} Kriti Jain | Built with React
           </p>
         </div>
         
         <div className="flex flex-col gap-1 md:items-center">
-          <a href="mailto:kriti@gmail.com" className="underline hover:text-white transition-colors underline-offset-4 decoration-1 lowercase">kriti@gmail.com</a>
+          <a href="mailto:er.jainkriti@gmail.com" className="underline hover:text-white transition-colors underline-offset-4 decoration-1 lowercase">er.jainkriti@gmail.com</a>
+          <a href="https://github.com/kriti-on-git" target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors underline-offset-4 decoration-1 lowercase">github</a>
         </div>
         
         <div className="flex flex-col gap-1 md:items-end">

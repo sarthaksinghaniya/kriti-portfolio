@@ -39,12 +39,32 @@ const Contact = () => {
       return;
     }
 
-    // Process your form payload safely here (e.g., Axios, EmailJS, Fetch API)
-    console.log("Form Data Submitted Successfully:", formData);
-    alert(`Thanks ${formData.firstName}! Message captured.`);
-    
-    // Optional Reset
-    setFormData({ firstName: '', lastName: '', email: '', message: '', permission: false });
+    // Use FormSubmit.co API to send email silently in the background
+    // IMPORTANT: Change 'er.jainkriti@gmail.com' to your actual email address.
+    // The very first time you submit, you will receive an activation email to this address that you must approve.
+    fetch("https://formsubmit.co/ajax/er.jainkriti@gmail.com", {
+      method: "POST",
+      headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+          name: `${formData.firstName} ${formData.lastName}`,
+          email: formData.email,
+          message: formData.message
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("Success:", data);
+        alert(`Thanks ${formData.firstName}! Your message has been sent.`);
+        // Reset form
+        setFormData({ firstName: '', lastName: '', email: '', message: '', permission: false });
+    })
+    .catch(error => {
+        console.error("Error:", error);
+        alert("There was an error sending your message. Please try again.");
+    });
   };
 
   return (
