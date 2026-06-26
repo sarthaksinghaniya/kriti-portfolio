@@ -85,27 +85,44 @@ const Hero = () => {
             I build intelligent, scalable machine learning models and data pipelines using Python, PyTorch, and cloud technologies.
           </p>
 
-          {/* Buttons */}
+          {/* Buttons Area */}
           <div 
             data-aos="fade-up"
             data-aos-delay="400"
-            className="flex flex-row items-center gap-4 w-full"
+            className="flex flex-col gap-4 w-full items-start"
           >
-            {/* Primary Button */}
-            <a 
-              href="#projects" 
-              className="px-6 py-2.5 md:px-7 md:py-3 text-xs md:text-sm rounded-full bg-white text-black font-bold hover:bg-neutral-100 transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg inline-block text-center"
-            >
-              View My Work
-            </a>
-            
-            {/* Secondary Button */}
-            <a 
-              href="#contact" 
-              className="px-6 py-2.5 md:px-7 md:py-3 text-xs md:text-sm rounded-full bg-black/10 border border-white text-white font-bold hover:bg-white/10 transition-all duration-300 backdrop-blur-md transform hover:-translate-y-0.5 inline-block text-center"
-            >
-              Contact Me
-            </a>
+            <div className="flex flex-row items-center gap-4">
+              {/* Primary Button */}
+              <a 
+                href="#projects" 
+                className="px-6 py-2.5 md:px-7 md:py-3 text-xs md:text-sm rounded-full bg-white text-black font-bold hover:bg-neutral-100 transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg inline-block text-center"
+              >
+                View My Work
+              </a>
+              
+              {/* Secondary Button */}
+              <a 
+                href="#contact" 
+                className="px-6 py-2.5 md:px-7 md:py-3 text-xs md:text-sm rounded-full bg-black/10 border border-white text-white font-bold hover:bg-white/10 transition-all duration-300 backdrop-blur-md transform hover:-translate-y-0.5 inline-block text-center"
+              >
+                Contact Me
+              </a>
+            </div>
+
+            {/* LeetCode Button Row */}
+            <div className="flex flex-row items-center gap-4 mt-2">
+              <a 
+                href="https://leetcode.com/u/kritixleetcode/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2.5 md:px-7 md:py-3 text-xs md:text-sm rounded-full bg-[#FFA116] text-black font-bold hover:bg-[#FFB13B] transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg inline-flex items-center justify-center gap-2 border border-transparent hover:border-white/50"
+              >
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125 2.513 5.277 5.277 0 0 0 1.062 2.362 5.33 5.33 0 0 0 2.107 1.643 5.281 5.281 0 0 0 2.682.357 5.337 5.337 0 0 0 2.045-1.026 5.27 5.27 0 0 0 1.54-2.22l.142-.38h-2.597l-.116.192a2.68 2.68 0 0 1-1.46 1.157 2.68 2.68 0 0 1-1.921-.132 2.67 2.67 0 0 1-1.325-1.124 2.656 2.656 0 0 1-.365-1.895 2.67 2.67 0 0 1 .803-1.638l3.651-3.905 4.887-5.23a.687.687 0 0 1 .494-.216.687.687 0 0 1 .49.22l3.41 3.65a.692.692 0 0 1 .184.664.69.69 0 0 1-.413.484l-2.022.863a.688.688 0 0 0-.363.364.688.688 0 0 0-.007.502l1.643 3.967a.69.69 0 0 0 .393.368.687.687 0 0 0 .5-.052l2.36-1.144a2.66 2.66 0 0 1 1.706-.178 2.66 2.66 0 0 1 1.341 1.02 2.668 2.668 0 0 1 .455 1.722 2.668 2.668 0 0 1-.87 1.54l-5.06 4.75a.688.688 0 0 1-.944-.002.688.688 0 0 1-.19-.508v-4.14a.688.688 0 0 0-.203-.49.688.688 0 0 0-.49-.204H9.41a.688.688 0 0 0-.688.688v.688a.688.688 0 0 0 .688.688h3.336v2.091a2.062 2.062 0 0 1-2.063 2.063h-1.61a2.062 2.062 0 0 1-2.063-2.063V20.15a2.062 2.062 0 0 1 2.063-2.063h4.606l4.636-4.354a4.043 4.043 0 0 0 1.258-2.316 4.04 4.04 0 0 0-.74-2.65 4.037 4.037 0 0 0-2.098-1.503 4.03 4.03 0 0 0-2.636.275l-.946.46-1.157-2.793 1.583-.675a2.064 2.064 0 0 0 1.084-1.294 2.065 2.065 0 0 0-.547-1.874l-3.41-3.651A2.067 2.067 0 0 0 13.483 0z"/>
+                </svg>
+                LeetCode Profile
+              </a>
+            </div>
           </div>
         </div>
 
